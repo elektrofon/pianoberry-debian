@@ -1,0 +1,13 @@
+IMG_NAME="pianoberry"
+RELEASE="bookworm"
+LOCALE_DEFAULT="en_US.UTF-8"
+TARGET_HOSTNAME="pianoberry"
+KEYBOARD_KEYMAP="us"
+KEYBOARD_LAYOUT="English (US)"
+TIMEZONE_DEFAULT="America/New_York"
+FIRST_USER_NAME="pianoberry"
+FIRST_USER_PASS="pianoberry"
+DISABLE_FIRST_BOOT_USER_RENAME=1
+WPA_COUNTRY="US"
+ENABLE_SSH=1
+STAGE_LIST="stage0 stage1 pianoberry"

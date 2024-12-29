@@ -1,0 +1,3 @@
+#!/bin/sh
+
+git clone --depth 1 --branch arm64 https://github.com/RPI-Distro/pi-gen.git
