@@ -32,18 +32,6 @@ SUDO_USER="${FIRST_USER_NAME}" sed -i '$ s/$/ quiet/' /boot/firmware/cmdline.txt
 EOF
 
 
-# Disable bluetooth
-################################################################
-on_chroot << EOF
-SUDO_USER="${FIRST_USER_NAME}" echo 'dtoverlay=disable-bt' >> /boot/firmware/config.txt
-SUDO_USER="${FIRST_USER_NAME}" echo 'dtoverlay=miniuart-bt' >> /boot/firmware/config.txt
-SUDO_USER="${FIRST_USER_NAME}" systemctl disable hciuart
-SUDO_USER="${FIRST_USER_NAME}" systemctl disable bluetooth
-SUDO_USER="${FIRST_USER_NAME}" systemctl stop hciuart
-SUDO_USER="${FIRST_USER_NAME}" systemctl stop bluetooth
-EOF
-
-
 # Set audio limits
 ################################################################
 on_chroot << EOF
@@ -93,3 +81,6 @@ EOF
 # SUDO_USER="${FIRST_USER_NAME}" rm -rf /root/.cache
 # SUDO_USER="${FIRST_USER_NAME}" rm -rf /root/.cargo
 # EOF
+
+# Clean apt cache (to mitigate disk space issues)
+rm -Rf "${ROOTFS_DIR}/var/cache/apt/archives/*"

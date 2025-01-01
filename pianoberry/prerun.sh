@@ -5,4 +5,4 @@ if [ ! -d "${ROOTFS_DIR}" ]; then
 fi
 
 # Clean apt cache (to mitigate disk space issues)
-rm -rf "${ROOTFS_DIR}/var/cache/apt/archives/*"
+rm -Rf "${ROOTFS_DIR}/var/cache/apt/archives/*"
