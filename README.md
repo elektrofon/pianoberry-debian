@@ -1,7 +1,10 @@
+<img src="assets/logo.svg" width="200" height="200" />
+
 PIANOBERRY
 ==========
 
-Pianoteq on Raspberry PI 5 with pisound sound card.
+
+Pianoteq on Raspberry PI 5 with [pisound](https://blokas.io/pisound/) sound card.
 
 ## Building
 
