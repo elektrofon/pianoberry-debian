@@ -4,7 +4,7 @@ PIANOBERRY
 ==========
 
 
-Headless* Pianoteq on Raspberry PI 5 with [Pisound](https://blokas.io/pisound/) sound card.  
+Headless* [Pianoteq](https://www.modartt.com/pianoteq_overview) on Raspberry PI 5 with [Pisound](https://blokas.io/pisound/) sound card.  
 Tweaked for ~10 seconds boot time and ~1.5ms latency at 96kHz sample rate.
 
 <small>* Headless: without a monitor, keyboard, or mouse.</small>
