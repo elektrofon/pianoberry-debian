@@ -1,3 +1,5 @@
+# This repository is archived. Future development will happen at [elektrofon/pianoberry](https://github.com/elektrofon/pianoberry). This archive is left as a guide on how to approach building a custom Raspberry OS with the official pi-gen tool
+
 <img src="assets/logo.svg" width="200" height="200" />
 
 PIANOBERRY
