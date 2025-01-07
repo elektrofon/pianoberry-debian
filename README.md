@@ -11,7 +11,7 @@ Tweaked for ~10 seconds boot time and ~1.5ms latency at 96kHz sample rate.
 
 ## Trying
 
-1. Download the [latest image](https://github.com/elektrofon/pianoberry/releases/latest)
+1. Download the [latest image](https://github.com/elektrofon/pianoberry-debian/releases/latest)
 2. Flash the image to a microSD card using [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 3. Insert the microSD card into the Raspberry PI 5 with a Pisound sound card
 4. Connect a MIDI keyboard to the Pisound MIDI input
